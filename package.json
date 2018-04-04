@@ -1,20 +1,22 @@
 {
-    "name": "PUBG Statistics",
-    "version": "1.0.0",
-    "description": "Statistical breakdown of PUBG matches",
-    "main": "app.js",
-    "scripts": {
-      "start": "node app.js",
-      "test": "return 0"
-    },
-    "author": "Eric M Padget",
-    "license": "ISC",
-    "dependencies": {
-      "express": "^4.16.2",
-      "express-session": "^1.15.6"
-    },
-    "engines": {
-      "node": "6.11.3",
-      "npm": "4.1.2"
-    }
+  "name": "pubg-angular",
+  "version": "1.0.0",
+  "description": "PUBG stats",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greyhound75/pubg-angular.git"
+  },
+  "author": "Eric M Padget",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/greyhound75/pubg-angular/issues"
+  },
+  "homepage": "https://github.com/greyhound75/pubg-angular#readme",
+  "dependencies": {
+    "express": "^4.16.3"
   }
+}
